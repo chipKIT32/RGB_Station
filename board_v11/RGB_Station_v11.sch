@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -38823,7 +38823,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C10" library="SparkFun02-20-08" deviceset="CAP" device="0603" value="0.1uF"/>
 <part name="GND5" library="SparkFun02-20-08" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
-<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="8.2K"/>
 <part name="LED2" library="SparkFun" deviceset="LED" device="0603" value="GREEN"/>
 <part name="GND19" library="SparkFun02-20-08" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun02-20-08" deviceset="GND" device=""/>
@@ -38831,7 +38831,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+15" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
 <part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="8.2K"/>
 <part name="LED1" library="SparkFun" deviceset="LED" device="0603" value="RED"/>
 <part name="GND4" library="SparkFun02-20-08" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun02-20-08" deviceset="GND" device=""/>
@@ -38896,7 +38896,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+8" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
 <part name="GND15" library="SparkFun02-20-08" deviceset="GND" device=""/>
 <part name="VIN_5V" library="SparkFun02-20-08" deviceset="5V" device="" value="5V"/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="8.2K"/>
 <part name="LED3" library="SparkFun" deviceset="LED" device="0603" value="Blue"/>
 <part name="P+9" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
 <part name="P+10" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
@@ -39329,13 +39329,13 @@ LED</text>
 <instance part="VIN_5V" gate="G$1" x="58.42" y="66.04" smashed="yes">
 <attribute name="VALUE" x="57.404" y="69.342" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="R4" gate="G$1" x="337.82" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="339.598" y="138.1506" size="1.27" layer="95" font="vector"/>
-<attribute name="VALUE" x="339.598" y="135.382" size="1.27" layer="96" font="vector"/>
+<instance part="R4" gate="G$1" x="330.2" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="327.152" y="126.7206" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="331.47" y="126.746" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="LED3" gate="G$1" x="332.74" y="129.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="325.374" y="127.762" size="1.27" layer="95" font="vector"/>
-<attribute name="VALUE" x="333.248" y="127.889" size="1.27" layer="96" font="vector"/>
+<instance part="LED3" gate="G$1" x="337.82" y="137.16" smashed="yes">
+<attribute name="NAME" x="331.47" y="136.652" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="332.486" y="132.207" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="P+9" gate="G$1" x="322.58" y="144.78" smashed="yes">
 <attribute name="VALUE" x="321.564" y="148.336" size="1.27" layer="96" font="vector"/>
@@ -39649,11 +39649,6 @@ LED</text>
 <wire x1="322.58" y1="134.62" x2="322.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="P+10" gate="G$1" pin="3.3V"/>
-<wire x1="337.82" y1="142.24" x2="337.82" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="91.44" y1="83.82" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="83.82" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
@@ -39688,6 +39683,11 @@ LED</text>
 <wire x1="195.58" y1="119.38" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 <junction x="195.58" y="121.92"/>
 <pinref part="U4" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="P+10" gate="G$1" pin="3.3V"/>
+<wire x1="337.82" y1="139.7" x2="337.82" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RA3" class="0">
@@ -40281,21 +40281,6 @@ LED</text>
 <label x="241.3" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="P0_2"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="320.04" y1="129.54" x2="327.66" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="335.28" y1="129.54" x2="337.82" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="129.54" x2="337.82" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BT_RX" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="UART_RX"/>
@@ -40359,6 +40344,21 @@ LED</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="226.06" y1="48.26" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="P0_2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="320.04" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="335.28" y1="129.54" x2="337.82" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="129.54" x2="337.82" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
