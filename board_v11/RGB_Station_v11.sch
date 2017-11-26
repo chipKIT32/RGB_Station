@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="14" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="58" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="15" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="14" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="58" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="15" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -38615,65 +38615,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Retired">
-<description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
-In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE_SWITCH_SMD-3">
-<wire x1="-2.04" y1="-0.44" x2="-2.04" y2="0.47" width="0.2032" layer="21"/>
-<wire x1="-1.04" y1="1.14" x2="1.04" y2="1.14" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.8" width="0.15" layer="21"/>
-<smd name="1" x="-1.8" y="1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="1.8" y="1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="-1.8" y="-1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<smd name="4" x="1.8" y="-1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<wire x1="2.06" y1="-0.44" x2="2.06" y2="0.47" width="0.2032" layer="21"/>
-<wire x1="-1.04" y1="-1.16" x2="1.04" y2="-1.16" width="0.2032" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SWITCH-MOMENTARY-2">
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SWITCH-MOMENTARY-SPST" prefix="S">
-<description>Various NO switches- pushbuttons, reed, etc</description>
-<gates>
-<gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD-3" package="TACTILE_SWITCH_SMD-3">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MCP1x2_ResetController">
 <packages>
 <package name="SOT23-3">
@@ -38798,6 +38739,70 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="kmr2_switch">
+<packages>
+<package name="KMR2_SWITCH">
+<description>C&amp;K KRM2 series switch</description>
+<smd name="P1" x="-2.05" y="0.8" dx="1" dy="0.9" layer="1" rot="R90"/>
+<smd name="P2" x="-2.05" y="-0.8" dx="1" dy="0.9" layer="1" rot="R90"/>
+<smd name="P3" x="2.05" y="-0.8" dx="1" dy="0.9" layer="1" rot="R90"/>
+<smd name="P4" x="2.05" y="0.8" dx="1" dy="0.9" layer="1" rot="R90"/>
+<wire x1="-2.1" y1="0.195" x2="-2.1" y2="-0.2" width="0.203" layer="21"/>
+<wire x1="2.1" y1="0.195" x2="2.1" y2="-0.195" width="0.203" layer="21"/>
+<wire x1="-2.075" y1="-1.41" x2="2.13" y2="-1.41" width="0.203" layer="21"/>
+<wire x1="-2.085" y1="1.415" x2="2.12" y2="1.415" width="0.203" layer="21"/>
+<wire x1="-1" y1="0" x2="-0.825" y2="0.335" width="0.203" layer="21"/>
+<wire x1="-0.825" y1="0.335" x2="-0.5" y2="0.5" width="0.203" layer="21"/>
+<wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.203" layer="21"/>
+<wire x1="0.5" y1="0.5" x2="0.83" y2="0.35" width="0.203" layer="21"/>
+<wire x1="0.83" y1="0.35" x2="1" y2="0" width="0.203" layer="21"/>
+<wire x1="1" y1="0" x2="0.84" y2="-0.34" width="0.203" layer="21"/>
+<wire x1="0.84" y1="-0.34" x2="0.5" y2="-0.5" width="0.203" layer="21"/>
+<wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.203" layer="21"/>
+<wire x1="-0.5" y1="-0.5" x2="-0.835" y2="-0.305" width="0.203" layer="21"/>
+<wire x1="-0.835" y1="-0.305" x2="-1" y2="0" width="0.203" layer="21"/>
+<text x="-3" y="-3" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3" y="-4.5" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SPST_4PIN_SWITCH">
+<pin name="P1" x="-5.08" y="5.08" visible="off" length="short"/>
+<pin name="P2" x="-5.08" y="-5.08" visible="off" length="short"/>
+<pin name="P3" x="5.08" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="P4" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="-10.16" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KMR2_SWITCH">
+<gates>
+<gate name="G$1" symbol="SPST_4PIN_SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KMR2_SWITCH">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -38884,8 +38889,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U6" library="RN4870-71" deviceset="RN4871" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_FEMALE-SMT" value="USB_MICRO"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM"/>
-<part name="S1" library="SparkFun-Retired" deviceset="SWITCH-MOMENTARY-SPST" device="SMD-3"/>
-<part name="S2" library="SparkFun-Retired" deviceset="SWITCH-MOMENTARY-SPST" device="SMD-3"/>
 <part name="U3" library="MCP1x2_ResetController" deviceset="MCP1X2_RESET_CONTROLLER" device="" value="MCP121T-315E/TT"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -38906,6 +38909,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND22" library="SparkFun02-20-08" deviceset="GND" device=""/>
 <part name="P+14" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
 <part name="U4" library="DSC61XX" deviceset="DSC61XX" device="" value="DSC6111CI1A-008.0000"/>
+<part name="SW1" library="kmr2_switch" deviceset="KMR2_SWITCH" device=""/>
+<part name="SW2" library="kmr2_switch" deviceset="KMR2_SWITCH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -39045,9 +39050,9 @@ DotStar:
 <text x="228.092" y="35.052" size="1.27" layer="98" font="vector">Pin 1 
 LED</text>
 <wire x1="307.34" y1="99.06" x2="373.38" y2="99.06" width="0.1524" layer="98"/>
-<wire x1="373.38" y1="99.06" x2="373.38" y2="63.5" width="0.1524" layer="98"/>
-<wire x1="373.38" y1="63.5" x2="307.34" y2="63.5" width="0.1524" layer="98"/>
-<wire x1="307.34" y1="63.5" x2="307.34" y2="99.06" width="0.1524" layer="98"/>
+<wire x1="373.38" y1="99.06" x2="373.38" y2="53.34" width="0.1524" layer="98"/>
+<wire x1="373.38" y1="53.34" x2="307.34" y2="53.34" width="0.1524" layer="98"/>
+<wire x1="307.34" y1="53.34" x2="307.34" y2="99.06" width="0.1524" layer="98"/>
 <wire x1="203.2" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="98"/>
 <wire x1="236.22" y1="73.66" x2="236.22" y2="20.32" width="0.1524" layer="98"/>
 <wire x1="236.22" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="98"/>
@@ -39084,8 +39089,8 @@ LED</text>
 <attribute name="NAME" x="100.584" y="81.661" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="100.584" y="76.581" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="GND5" gate="1" x="340.36" y="68.58" smashed="yes">
-<attribute name="VALUE" x="338.836" y="66.548" size="1.27" layer="96" font="vector"/>
+<instance part="GND5" gate="1" x="340.36" y="58.42" smashed="yes">
+<attribute name="VALUE" x="338.836" y="56.388" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="P+4" gate="G$1" x="355.6" y="88.9" smashed="yes">
 <attribute name="VALUE" x="354.33" y="92.202" size="1.27" layer="96" font="vector"/>
@@ -39218,8 +39223,8 @@ LED</text>
 <instance part="P+7" gate="G$1" x="327.66" y="88.9" smashed="yes">
 <attribute name="VALUE" x="326.136" y="91.948" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="GND13" gate="1" x="312.42" y="68.58" smashed="yes">
-<attribute name="VALUE" x="310.896" y="66.548" size="1.27" layer="96" font="vector"/>
+<instance part="GND13" gate="1" x="312.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="310.896" y="56.388" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="C5" gate="G$1" x="144.78" y="78.74" smashed="yes">
 <attribute name="NAME" x="146.304" y="81.661" size="1.27" layer="95" font="vector"/>
@@ -39302,12 +39307,6 @@ LED</text>
 <attribute name="VALUE" x="40.64" y="53.594" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="40.64" y="64.008" size="1.27" layer="95" font="vector"/>
 </instance>
-<instance part="S1" gate="G$1" x="320.04" y="73.66" smashed="yes">
-<attribute name="NAME" x="319.024" y="71.628" size="1.27" layer="95" font="vector"/>
-</instance>
-<instance part="S2" gate="G$1" x="347.98" y="73.66" smashed="yes">
-<attribute name="NAME" x="346.964" y="71.628" size="1.27" layer="95" font="vector"/>
-</instance>
 <instance part="U3" gate="G$1" x="353.06" y="121.92" smashed="yes">
 <attribute name="NAME" x="347.98" y="114.3" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="347.98" y="111.76" size="1.27" layer="96" font="vector"/>
@@ -39372,6 +39371,14 @@ LED</text>
 <attribute name="VALUE" x="190.5" y="125.222" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="U4" gate="G$1" x="167.64" y="119.38"/>
+<instance part="SW1" gate="G$1" x="320.04" y="68.58" smashed="yes">
+<attribute name="NAME" x="318.516" y="61.214" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="314.96" y="59.436" size="1.27" layer="96" font="vector"/>
+</instance>
+<instance part="SW2" gate="G$1" x="347.98" y="68.58" smashed="yes">
+<attribute name="NAME" x="346.456" y="61.468" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="342.9" y="59.436" size="1.27" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -39393,9 +39400,13 @@ LED</text>
 </segment>
 <segment>
 <wire x1="342.9" y1="73.66" x2="340.36" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="73.66" x2="340.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="73.66" x2="340.36" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="SW2" gate="G$1" pin="P1"/>
+<pinref part="SW2" gate="G$1" pin="P2"/>
+<wire x1="340.36" y1="63.5" x2="340.36" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="63.5" x2="342.9" y2="63.5" width="0.1524" layer="91"/>
+<junction x="340.36" y="63.5"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="38.1" x2="208.28" y2="30.48" width="0.1524" layer="91"/>
@@ -39437,9 +39448,13 @@ LED</text>
 </segment>
 <segment>
 <wire x1="314.96" y1="73.66" x2="312.42" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="73.66" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="73.66" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="SW1" gate="G$1" pin="P1"/>
+<pinref part="SW1" gate="G$1" pin="P2"/>
+<wire x1="312.42" y1="63.5" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="63.5" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
+<junction x="312.42" y="63.5"/>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="3"/>
@@ -39858,8 +39873,11 @@ LED</text>
 <wire x1="355.6" y1="73.66" x2="355.6" y2="76.2" width="0.1524" layer="91"/>
 <junction x="355.6" y="73.66"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="S2" gate="G$1" pin="2"/>
 <label x="358.14" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="SW2" gate="G$1" pin="P4"/>
+<pinref part="SW2" gate="G$1" pin="P3"/>
+<wire x1="353.06" y1="63.5" x2="355.6" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="63.5" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
@@ -40124,8 +40142,11 @@ LED</text>
 <wire x1="327.66" y1="73.66" x2="330.2" y2="73.66" width="0.1524" layer="91"/>
 <junction x="327.66" y="73.66"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="S1" gate="G$1" pin="2"/>
 <label x="330.2" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="SW1" gate="G$1" pin="P4"/>
+<pinref part="SW1" gate="G$1" pin="P3"/>
+<wire x1="325.12" y1="63.5" x2="327.66" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="63.5" x2="327.66" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RC2" class="0">
