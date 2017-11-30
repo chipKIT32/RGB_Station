@@ -38876,8 +38876,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="J7" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$5" library="SchmalzHaus" deviceset="SCHMALZHAUS" device="SCHMALZHAUS_SMALL"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="333"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="333"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="100"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="100"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP_POL" device="C" value="100uF"/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="5V"/>
@@ -38961,9 +38961,9 @@ LED</text>
 <text x="204.216" y="177.292" size="1.27" layer="98" font="vector">3.3V</text>
 <text x="204.216" y="182.372" size="1.27" layer="98" font="vector">5V</text>
 <text x="204.216" y="179.832" size="1.27" layer="98" font="vector">GND</text>
-<text x="7.62" y="223.012" size="1.778" layer="98">v1.0 Nov 9, 2017
+<text x="7.62" y="223.012" size="1.4224" layer="98">v1.0 Nov 9, 2017
    Initial release</text>
-<text x="7.62" y="228.6" size="1.778" layer="98">Version History</text>
+<text x="7.62" y="228.6" size="1.4224" layer="98">Version History</text>
 <text x="227.838" y="176.022" size="1.27" layer="98" font="vector" rot="R180">GND</text>
 <text x="7.62" y="241.3" size="2.54" layer="98" ratio="15">A DIP form factor chipKIT® compatible board</text>
 <text x="5.08" y="12.7" size="1.778" layer="98">Copyright 2017 Guy McCarthy. Copyright and related rights are licensed under the Solderpad Hardware License, Version 0.51 (the “License”); </text>
@@ -39059,6 +39059,14 @@ LED</text>
 <wire x1="203.2" y1="20.32" x2="203.2" y2="73.66" width="0.1524" layer="98"/>
 <text x="204.47" y="71.628" size="1.27" layer="98" font="vector">Power and Pin 1 LEDs</text>
 <text x="308.864" y="96.52" size="1.27" layer="98" font="vector">PRG and RST Buttons</text>
+<text x="7.62" y="205.232" size="1.4224" layer="98">v1.1 Nov 29, 2017
+   Fixed switch footprint
+   Moved BLE led to edge of board
+   2-pin power screw terminal now 3.5mm
+   PRG and RESET lables corrected
+   LED resistors changed to 8K to dim the LEDs
+   Added pin numbers to output header silk
+   Switched reset controller to SOT-23 (SC70 not available)</text>
 </plain>
 <instances>
 <instance part="GND14" gate="1" x="147.32" y="172.72" smashed="yes" rot="R90">
