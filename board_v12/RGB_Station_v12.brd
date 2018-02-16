@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.002" altunitdist="inch" altunit="inch"/>
@@ -9824,10 +9825,11 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -9988,9 +9990,9 @@ design rules under a new name.</description>
 <element name="U$3" library="SchmalzHausPublic" package="ROHS_GARBAGE_5MM" value="ROSH_GARBAGE" x="64.6672" y="8.778" rot="MR0"/>
 <element name="U$4" library="SchmalzHausPublic" package="CHIPKIT_2MM" value="CHIPKIT2MM" x="84.99" y="0.6452" rot="MR0"/>
 <element name="J5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-4@1" value="" x="15.494" y="14.986" smashed="yes" rot="R270">
-<attribute name="SF_ID" value="2xPRT-08084" x="-22.606" y="61.976" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PROD_ID" value="2xCONN-08399" x="-22.606" y="61.976" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.907" y="14.986" size="0.8128" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="PROD_ID" value="2xCONN-08399" x="-22.606" y="61.976" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SF_ID" value="2xPRT-08084" x="-22.606" y="61.976" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.208" y="14.986" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U2" library="74LVCH2T45DC" package="VSSOP8" value="74LVC2T45" x="35.0012" y="5.2832" smashed="yes">
@@ -10002,8 +10004,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="26.5684" y="6.7818" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="J7" library="SparkFun-Connectors" package="1X04" value="" x="25.4" y="12.7" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="CONN-09696" x="72.39" y="95.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="24.9174" y="10.668" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="PROD_ID" value="CONN-09696" x="72.39" y="95.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.225" y="13.97" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$5" library="SchmalzHaus" package="SCHMALZHAUS_SMALL" value="SCHMALZHAUSSCHMALZHAUS_SMALL" x="74.422" y="11.2776" smashed="yes"/>
@@ -10024,14 +10026,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="0.9652" y="6.176" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="USB-B-MICRO-SMD" value="USB_MICRO" x="84.328" y="5.4356" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="CONN-11752" x="84.328" y="5.4356" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="85.598" y="0.7366" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="PROD_ID" value="CONN-11752" x="84.328" y="5.4356" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="85.598" y="10.1346" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="top-left"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="" x="81.3308" y="15.6972" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.7598" y="16.9672" size="0.8128" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="77.2668" y="16.9672" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-08399" x="81.3308" y="15.6972" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="77.2668" y="16.9672" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U3" library="MCP1x2_ResetController" package="SOT23-3" value="MCP121T-315E/TT" x="35.6616" y="8.7884" smashed="yes">
 <attribute name="NAME" x="35.068" y="8.3792" size="0.8128" layer="25" font="vector" ratio="10"/>
@@ -10045,7 +10047,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0.3302" y="17.8181" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="0.4064" y="16.5481" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value=".1uF" x="2.3876" y="2.3876" smashed="yes">
+<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="1uF" x="2.3876" y="2.3876" smashed="yes">
 <attribute name="NAME" x="1.7018" y="0.762" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="1.2192" y="-0.5334" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>

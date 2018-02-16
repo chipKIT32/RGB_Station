@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -38903,7 +38904,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND28" library="SparkFun02-20-08" deviceset="GND" device=""/>
 <part name="P+13" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
 <part name="GND34" library="SparkFun02-20-08" deviceset="GND" device=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C6" library="SparkFun02-20-08" deviceset="CAP" device="0603" value="0.1uF"/>
 <part name="C12" library="SchmalzHaus" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND22" library="SparkFun02-20-08" deviceset="GND" device=""/>
@@ -39067,8 +39068,13 @@ LED</text>
    LED resistors changed to 8K to dim the LEDs
    Added pin numbers to output header silk
    Switched reset controller to SOT-23 (SC70 not available)</text>
-<text x="7.62" y="202.692" size="1.4224" layer="98">v1.2 Dec 14, 2017
-   Fixed schematic with shorted switches</text>
+<text x="66.04" y="220.472" size="1.4224" layer="98">v1.2 Dec 14, 2017
+   Fixed schematic with shorted switches
+   J5, J6 now DNP
+   C2 now 1uF</text>
+<text x="39.878" y="50.292" size="1.778" layer="98">D.N.P</text>
+<text x="359.664" y="161.29" size="1.27" layer="98" font="vector">D.N.P</text>
+<text x="360.934" y="183.896" size="1.27" layer="98" font="vector">D.N.P</text>
 </plain>
 <instances>
 <instance part="GND14" gate="1" x="147.32" y="172.72" smashed="yes" rot="R90">
