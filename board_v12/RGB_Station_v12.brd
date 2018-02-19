@@ -10026,7 +10026,7 @@ design rules under a new name.
 <attribute name="PROD_ID" value="CONN-08399" x="81.3308" y="15.6972" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="77.2668" y="16.9672" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U3" library="MCP1x2_ResetController" package="SOT23-3" value="MCP121T-315E/TT" x="35.6616" y="8.7884" smashed="yes">
+<element name="U3" library="MCP1x2_ResetController" package="SOT23-3" value="MCP131T-315E/TT" x="35.6616" y="8.7884" smashed="yes">
 <attribute name="NAME" x="35.068" y="8.3792" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="23.5364" y="8.8604" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
