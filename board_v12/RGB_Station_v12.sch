@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -37957,38 +37957,38 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <library name="RN4870-71">
 <packages>
 <package name="RN4871">
-<smd name="1" x="0.25" y="6.7" dx="1.5" dy="0.7" layer="1"/>
-<smd name="2" x="0.25" y="5.5" dx="1.5" dy="0.7" layer="1"/>
-<smd name="3" x="0.25" y="4.3" dx="1.5" dy="0.7" layer="1"/>
-<smd name="4" x="0.25" y="3.1" dx="1.5" dy="0.7" layer="1"/>
-<smd name="5" x="0.25" y="1.9" dx="1.5" dy="0.7" layer="1"/>
-<smd name="6" x="1.5" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R90"/>
-<smd name="7" x="2.7" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R90"/>
-<smd name="8" x="3.9" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R90"/>
-<smd name="9" x="5.1" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R90"/>
-<smd name="10" x="6.3" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R90"/>
-<smd name="11" x="7.5" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R90"/>
-<smd name="12" x="8.75" y="1.9" dx="1.5" dy="0.7" layer="1" rot="R180"/>
-<smd name="13" x="8.75" y="3.1" dx="1.5" dy="0.7" layer="1" rot="R180"/>
-<smd name="14" x="8.75" y="4.3" dx="1.5" dy="0.7" layer="1" rot="R180"/>
-<smd name="15" x="8.75" y="5.5" dx="1.5" dy="0.7" layer="1" rot="R180"/>
-<smd name="16" x="8.75" y="6.7" dx="1.5" dy="0.7" layer="1" rot="R180"/>
-<wire x1="0" y1="0" x2="0" y2="7.5" width="0.127" layer="21"/>
-<wire x1="0" y1="7.5" x2="9" y2="7.5" width="0.127" layer="21"/>
-<wire x1="9" y1="7.5" x2="9" y2="0" width="0.127" layer="21"/>
-<wire x1="9" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="7.5" x2="0" y2="11.5" width="0.127" layer="51"/>
-<wire x1="0" y1="11.5" x2="6.5" y2="11.5" width="0.127" layer="51"/>
-<wire x1="6.5" y1="11.5" x2="6.5" y2="11" width="0.127" layer="51"/>
-<wire x1="6.5" y1="11" x2="7.5" y2="11" width="0.127" layer="51"/>
-<wire x1="7.5" y1="11" x2="7.5" y2="11.5" width="0.127" layer="51"/>
-<wire x1="7.5" y1="11.5" x2="9" y2="11.5" width="0.127" layer="51"/>
-<wire x1="9" y1="11.5" x2="9" y2="7.5" width="0.127" layer="51"/>
-<rectangle x1="1" y1="4.6" x2="3" y2="7.5" layer="39"/>
-<rectangle x1="4.3" y1="1.5" x2="8" y2="7" layer="39"/>
-<text x="0" y="-3" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="-5" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-1.45" y="7.05" radius="0.180275" width="0.127" layer="21"/>
+<smd name="1" x="-4.25" y="0.95" dx="1.5" dy="0.7" layer="1"/>
+<smd name="2" x="-4.25" y="-0.25" dx="1.5" dy="0.7" layer="1"/>
+<smd name="3" x="-4.25" y="-1.45" dx="1.5" dy="0.7" layer="1"/>
+<smd name="4" x="-4.25" y="-2.65" dx="1.5" dy="0.7" layer="1"/>
+<smd name="5" x="-4.25" y="-3.85" dx="1.5" dy="0.7" layer="1"/>
+<smd name="6" x="-3" y="-5.5" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="7" x="-1.8" y="-5.5" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="8" x="-0.6" y="-5.5" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="9" x="0.6" y="-5.5" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="10" x="1.8" y="-5.5" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="11" x="3" y="-5.5" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="12" x="4.25" y="-3.85" dx="1.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="13" x="4.25" y="-2.65" dx="1.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="14" x="4.25" y="-1.45" dx="1.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="15" x="4.25" y="-0.25" dx="1.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="16" x="4.25" y="0.95" dx="1.5" dy="0.7" layer="1" rot="R180"/>
+<wire x1="-4.5" y1="-5.75" x2="-4.5" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="1.75" x2="4.5" y2="1.75" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1.75" x2="4.5" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-5.75" x2="-4.5" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="1.75" x2="-4.5" y2="5.75" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="5.75" x2="2" y2="5.75" width="0.127" layer="51"/>
+<wire x1="2" y1="5.75" x2="2" y2="5.25" width="0.127" layer="51"/>
+<wire x1="2" y1="5.25" x2="3" y2="5.25" width="0.127" layer="51"/>
+<wire x1="3" y1="5.25" x2="3" y2="5.75" width="0.127" layer="51"/>
+<wire x1="3" y1="5.75" x2="4.5" y2="5.75" width="0.127" layer="51"/>
+<wire x1="4.5" y1="5.75" x2="4.5" y2="1.75" width="0.127" layer="51"/>
+<rectangle x1="-3.5" y1="-1.15" x2="-1.5" y2="1.75" layer="39"/>
+<rectangle x1="-0.2" y1="-4.25" x2="3.5" y2="1.25" layer="39"/>
+<text x="-4.5" y="-8.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-10.75" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-5.95" y="1.3" radius="0.180275" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -38238,11 +38238,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
-<library name="RGB_Station_v12">
+<library name="RGB_Station_v12_VREG">
 <description>Generated from &lt;b&gt;RGB_Station_v12.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="LINEAR_SOT89">
+<package name="RGB_STATION_V12_LINEAR_SOT89">
 <description>&lt;b&gt;SOT98&lt;/b&gt; PK (R-PDSO-G3)&lt;p&gt;
 Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
@@ -38258,14 +38258,11 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
 <rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
 <rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
-<rectangle x1="-0.4" y1="-2.68" x2="0.4" y2="-1.28" layer="31"/>
-<rectangle x1="1.1" y1="-2.68" x2="1.9" y2="-1.28" layer="31"/>
-<rectangle x1="-1.9" y1="-2.68" x2="-1.1" y2="-1.28" layer="31"/>
 <rectangle x1="-0.9" y1="0" x2="0.9" y2="2.2" layer="31"/>
-<smd name="1" x="-1.499" y="-1.981" dx="1" dy="1.5" layer="1" cream="no"/>
-<smd name="2" x="0" y="-1.727" dx="1" dy="2" layer="1" cream="no"/>
+<smd name="1" x="-1.499" y="-1.981" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="0" y="-1.727" dx="1" dy="2" layer="1"/>
 <smd name="2@1" x="0" y="0.94" dx="2.2" dy="3.7" layer="1" roundness="100" cream="no"/>
-<smd name="3" x="1.499" y="-1.981" dx="1" dy="1.5" layer="1" cream="no"/>
+<smd name="3" x="1.499" y="-1.981" dx="1" dy="1.5" layer="1"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.4051" y="-4.3449" size="1.27" layer="27">&gt;VALUE</text>
 <polygon width="0.1998" layer="51">
@@ -38279,6 +38276,58 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <vertex x="-0.7874" y="1.2954"/>
 </polygon>
 </package>
+</packages>
+<symbols>
+<symbol name="RGB_STATION_V12_LINEAR_MCP1703">
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="VI" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="VI1" x="-12.7" y="0" visible="off" length="short" direction="in"/>
+<pin name="VO" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RGB_STATION_V12_LINEAR_MCP1703*" prefix="IC">
+<description>&lt;b&gt;250 mA, 16V, Low Quiescent Current LDO Regulator&lt;/b&gt;&lt;p&gt;
+Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
+<gates>
+<gate name="G$1" symbol="RGB_STATION_V12_LINEAR_MCP1703" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MB" package="RGB_STATION_V12_LINEAR_SOT89">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VI" pad="2"/>
+<connect gate="G$1" pin="VI1" pad="2@1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="12"/>
+<technology name="15"/>
+<technology name="18"/>
+<technology name="25"/>
+<technology name="28"/>
+<technology name="30"/>
+<technology name="33"/>
+<technology name="40"/>
+<technology name="50"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="RGB_Station_v12_USB_CONN">
+<description>Generated from &lt;b&gt;RGB_Station_v12.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
 <package name="SPARKFUN-CONNECTORS_USB-B-MICRO-SMD">
 <description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -38633,19 +38682,6 @@ Manufacturer: Hirose&lt;br&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="LINEAR_MCP1703">
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="VI" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="VI1" x="-12.7" y="0" visible="off" length="short" direction="in"/>
-<pin name="VO" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
-<text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
-</symbol>
 <symbol name="SPARKFUN-CONNECTORS_USB-5PIN">
 <description>&lt;h3&gt;USB - 5 pin&lt;/h3&gt;
 &lt;p&gt;5 pin USB connector: VBUS, GND, D+, D-, ID &lt;/p&gt;
@@ -38666,35 +38702,6 @@ Manufacturer: Hirose&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LINEAR_MCP1703*" prefix="IC">
-<description>&lt;b&gt;250 mA, 16V, Low Quiescent Current LDO Regulator&lt;/b&gt;&lt;p&gt;
-Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
-<gates>
-<gate name="G$1" symbol="LINEAR_MCP1703" x="0" y="0"/>
-</gates>
-<devices>
-<device name="MB" package="LINEAR_SOT89">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VI" pad="2"/>
-<connect gate="G$1" pin="VI1" pad="2@1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="12"/>
-<technology name="15"/>
-<technology name="18"/>
-<technology name="25"/>
-<technology name="28"/>
-<technology name="30"/>
-<technology name="33"/>
-<technology name="40"/>
-<technology name="50"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SPARKFUN-CONNECTORS_USB_MICRO-B" prefix="J" uservalue="yes">
 <description>&lt;h3&gt;USB Type Micro-B Connector&lt;/h3&gt;
 &lt;p&gt;Male/female and PTH/SMT variants&lt;/p&gt;
@@ -38857,7 +38864,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="J1" library="SchmalzHaus" deviceset="M20" device=""/>
 <part name="J2" library="SchmalzHaus" deviceset="M20" device=""/>
 <part name="ICSP" library="SchmalzHaus" deviceset="M05" device="NOSLILK" value="J3"/>
-<part name="IC1" library="RGB_Station_v12" deviceset="LINEAR_MCP1703*" device="MB" technology="28" value="MCP1702T-3302E/MB"/>
+<part name="IC1" library="RGB_Station_v12_VREG" deviceset="RGB_STATION_V12_LINEAR_MCP1703*" device="MB" technology="28" value="MCP1702T-3302E/MB"/>
 <part name="GND1" library="SparkFun02-20-08" deviceset="GND" device=""/>
 <part name="U1" library="SchmalzHaus" deviceset="PIC32MX2XX_44" device="QFN44" value="PIC32MX270F256D_44VTLA_44"/>
 <part name="P+1" library="SparkFun02-20-08" deviceset="3.3V" device=""/>
@@ -38888,7 +38895,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="+3.3V" library="supply1" deviceset="+3V3" device="" value="+3.3V"/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U6" library="RN4870-71" deviceset="RN4871" device=""/>
-<part name="J3" library="RGB_Station_v12" deviceset="SPARKFUN-CONNECTORS_USB_MICRO-B" device="_FEMALE-SMT" value="USB_MICRO"/>
+<part name="J3" library="RGB_Station_v12_USB_CONN" deviceset="SPARKFUN-CONNECTORS_USB_MICRO-B" device="_FEMALE-SMT" value="USB_MICRO"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM"/>
 <part name="U3" library="MCP1x2_ResetController" deviceset="MCP1X2_RESET_CONTROLLER" device="" value="MCP131T-315E/TT"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
