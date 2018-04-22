@@ -39019,12 +39019,12 @@ LED</text>
 <text x="331.724" y="205.994" size="1.27" layer="98" font="vector">Both DotStar and NeoPixels can
 be used with this board.
 
-NeoPixel:
+NeoPixe (WS2812):
   Use +5V, GND, and DAT pins
   on connector. In code, use
   output pin 18.
 
-DotStar:
+DotStar (APA102):
   Use +5V, GND, DAT and CLK pins
   In code, use defualt SPI port
 </text>
