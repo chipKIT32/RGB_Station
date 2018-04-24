@@ -227,14 +227,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710677"
-     inkscape:cx="57.97954"
-     inkscape:cy="592.90248"
+     inkscape:zoom="0.99999998"
+     inkscape:cx="632.33499"
+     inkscape:cy="221.84366"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1028"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -3215,8 +3215,8 @@
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
        r="2.3930533"
-       cy="782.83942"
-       cx="156.97621"
+       cy="779.55817"
+       cx="161.89809"
        id="path15757-4"
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
@@ -3255,11 +3255,16 @@
          sodipodi:role="line"
          x="167.11937"
          y="835.19727"
-         id="tspan7578-5">Power input through USB, 5V, or 3.3V pins</tspan></text>
+         id="tspan7578-5">Power input through USB or 5V. Do not use</tspan><tspan
+         style="font-size:10px;line-height:1.25;font-family:sans-serif"
+         sodipodi:role="line"
+         x="167.11937"
+         y="847.69727"
+         id="tspan6237">3.3V pins for power input if driving LEDs.</tspan></text>
     <circle
        r="2.3930533"
-       cy="833.57434"
-       cx="157.32182"
+       cy="831.46497"
+       cx="162.00932"
        id="path15757-4-1"
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
@@ -3273,7 +3278,7 @@
          sodipodi:role="line"
          x="469.91113"
          y="328.93887"
-         id="tspan7578-9-1">Up to 100mA out, or 3.3V in</tspan></text>
+         id="tspan7578-9-1">Up to 100mA out</tspan></text>
     <path
        sodipodi:type="star"
        style="fill:#000000;fill-opacity:1;stroke:none"
@@ -11191,15 +11196,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="139.01122"
+       x="195.72997"
        y="328.03601"
        id="text3171-8-9-8-1-1-9"
        sodipodi:linespacing="0%"><tspan
          style="font-size:10px;line-height:1.25;font-family:sans-serif"
          sodipodi:role="line"
-         x="139.01122"
+         x="195.72997"
          y="328.03601"
-         id="tspan7578-9-1-7">Up to 100mA out, or 3.3V in</tspan></text>
+         id="tspan7578-9-1-7">Up to 100mA out</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
